@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #D8D9CF;
 }
 
 .navbar-collapse {
@@ -21,7 +21,8 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'BhuTuka Expanded One', cursiva;
+  font-family: 'Cinzel', serif;
 }
 
 .seccion-oscura {
@@ -37,7 +38,9 @@ h1 {
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+ 
+  font-family: 'BhuTuka Expanded One', cursiva;
+font-family: 'Cinzel', serif;
 }
 
 .seccion-descripcion {
@@ -85,16 +88,19 @@ h1 {
   color: #615151;
 }
 
+
 /* Sobre mi */
 
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  background-color: #E26868;
 }
 
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
+  background-color: #E26868;
 }
 
 /* Experiencia */
@@ -115,13 +121,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #FF8787;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #EDEDED;
+  background-color: #E26868;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -136,6 +142,11 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+  color: #EDEDED;
+}
+.badges-contenedor .badges text-bg-prymary{
+ background-color: black;
+
 }
 
 .badge {
@@ -192,6 +203,10 @@ h1 {
 
 .overlay .iconos-contenedor {
   display: flex;
+}
+
+.btn-info{
+  background-color: #FF8787;
 }
 
 .overlay i {
@@ -281,7 +296,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #FF8787;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -327,6 +342,7 @@ h1 {
 
 footer {
   min-height: 500px;
+  background-color: #E26868;
 }
 
 .footer-logo {
